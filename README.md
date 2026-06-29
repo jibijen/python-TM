@@ -1,13 +1,11 @@
 # 📝 Task Manager Pro
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-darkgreen.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688.svg)](https://fastapi.tiangolo.com/)
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0%2B-red.svg)](https://www.sqlalchemy.org/)
 [![Tests](https://img.shields.io/badge/Tests-Included-brightgreen.svg)](./tests/)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF.svg)](https://github.com/features/actions)
 [![Docker Ready](https://img.shields.io/badge/Docker-Ready-blueviolet.svg)](https://www.docker.com/)
-[![Security](https://img.shields.io/badge/Security-Hardened-critical.svg)](#-security-features)
 
 Task Manager Pro is a personal full-stack Python project I built to practice real backend development from scratch. It combines a command-line tool with a REST API, secure authentication, a database layer, and automated reminders — all in one place.
 
@@ -426,23 +424,7 @@ docker run -p 8000:8000 \
 
 ---
 
-## 📈 Development Roadmap
-
-### Completed ✅
-
-- **Phase 1:** Branch consolidation and analysis
-- **Phase 2:** Database (SQLAlchemy) & Security (JWT, bcrypt)
-- **Phase 3:** REST API with FastAPI (17 endpoints)
-- **Phase 4:** Testing (20 tests) & CI/CD (GitHub Actions)
-
-### Upcoming 🚀
-
-- **Phase 5:** Advanced features (tags, categories, subtasks, time tracking)
-- **Phase 6:** Web UI (React/Vue) & monitoring (logging, APM)
-
----
-
-## 💡 Skills Demonstrated
+##  Skills Demonstrated
 
 ### Backend Development
 
@@ -513,18 +495,4 @@ To suggest features or report bugs, open an issue.
 
 ---
 
-## 📜 License
-
-This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0). See the [LICENSE](./LICENSE) file for more details.
-
----
-
-## 🧠 Author
-
-Built by [Satvik Praveen](https://github.com/SatvikPraveen) as a personal project to learn and grow as a Python developer.
-
-If you like this project, feel free to star it, fork it, or explore the code.
-
----
-
-## ⭐️ Star this repo if you found it helpful
+## ⭐️ If you like this project, feel free to star it and explore the code.
