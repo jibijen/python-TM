@@ -2,7 +2,7 @@
 [project]
 name = "task-manager-pro"  # Name of the package
 version = "0.3.0"  # Updated version with REST API
-description = "Advanced task manager with REST API, database, security, and email reminders"  # Short project summary
+description = "A personal task manager project built with Python, FastAPI, SQLAlchemy, authentication, and reminders"  # Short project summary
 authors = [{ name = "Satvik Praveen" }]  # List of authors
 readme = "README.md"  # Markdown file used as long description on PyPI
 requires-python = ">=3.10"  # Minimum required Python version

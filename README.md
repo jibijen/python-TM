@@ -1,17 +1,24 @@
-# 📝 Task Manager PRO — Production-Grade Task Management System
+# 📝 Task Manager Pro
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-darkgreen.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688.svg)](https://fastapi.tiangolo.com/)
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0%2B-red.svg)](https://www.sqlalchemy.org/)
-[![Tests](https://img.shields.io/badge/Tests-20%2F20%20Passing-brightgreen.svg)](./tests/)
+[![Tests](https://img.shields.io/badge/Tests-Included-brightgreen.svg)](./tests/)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF.svg)](https://github.com/features/actions)
 [![Docker Ready](https://img.shields.io/badge/Docker-Ready-blueviolet.svg)](https://www.docker.com/)
 [![Security](https://img.shields.io/badge/Security-Hardened-critical.svg)](#-security-features)
-[![Type Hints](https://img.shields.io/badge/Type%20Hints-Mypy-informational.svg)](http://mypy-lang.org/)
 
-**Task Manager PRO** is a **production-grade distributed task management system** combining a Python CLI tool with a modern REST API.  
-It demonstrates mastery of full-stack development: SQLAlchemy ORM, FastAPI REST endpoints, JWT authentication, comprehensive testing, and CI/CD automation.
+Task Manager Pro is a personal full-stack Python project I built to practice real backend development from scratch. It combines a command-line tool with a REST API, secure authentication, a database layer, and automated reminders — all in one place.
+
+This project was created to help me learn how modern Python applications are structured, from the CLI experience to API design, testing, and deployment.
+
+## 🌟 Why I built this project
+
+- To build a useful task manager that I could actually use
+- To learn how Python apps are organized in a clean, scalable way
+- To practice authentication, databases, APIs, and testing in one project
+- To create something that feels like a real portfolio project, not just a tutorial exercise
 
 ---
 
@@ -72,6 +79,21 @@ It demonstrates mastery of full-stack development: SQLAlchemy ORM, FastAPI REST 
 | **DevOps**        | GitHub Actions, Docker             |
 | **CLI**           | argparse, python-dotenv            |
 | **Python**        | 3.10, 3.11, 3.12                   |
+
+---
+
+## 🧭 Project Overview
+
+This repository is a hands-on Python backend project that grew from a simple CLI task manager into a more complete application with:
+
+- a terminal-based interface
+- a FastAPI backend
+- user authentication
+- persistent storage
+- automated reminders
+- test coverage and documentation
+
+It is designed to reflect the kind of work I want to showcase in my GitHub profile: practical, structured, and continuously improving.
 
 ---
 
@@ -499,7 +521,9 @@ This project is licensed under the [GNU General Public License v3.0](https://www
 
 ## 🧠 Author
 
-Built with ❤️ by [Satvik Praveen](https://github.com/SatvikPraveen)
+Built by [Satvik Praveen](https://github.com/SatvikPraveen) as a personal project to learn and grow as a Python developer.
+
+If you like this project, feel free to star it, fork it, or explore the code.
 
 ---
 
