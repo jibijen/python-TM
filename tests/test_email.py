@@ -19,7 +19,7 @@ from task_manager_pro.utils.emailer import send_email_reminder
 
 # Send a test email to verify that the system is configured correctly
 send_email_reminder(
-    to_email="satvikpraveen786@gmail.com",
+    to_email="user@example.com",
     subject="Test Reminder",
     body="This is a test email from Task Manager PRO!"
 )

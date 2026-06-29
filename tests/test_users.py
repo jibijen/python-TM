@@ -12,8 +12,8 @@ def test_user_creation():
     """
     Test creation of a new user and verifies that username is correctly assigned.
     """
-    user = User("satvik", "secret")
-    assert user.username == "satvik"
+    user = User("testuser", "secret")
+    assert user.username == "testuser"
 
 # def test_user_password_not_exposed():
 #     """
@@ -21,6 +21,6 @@ def test_user_creation():
 #     This is commented out as Python does not enforce strict encapsulation,
 #     but it demonstrates intent to avoid direct password access.
 #     """
-#     user = User("satvik", "secret")
+#     user = User("testuser", "secret")
 #     with pytest.raises(AttributeError):
 #         _ = user._password  # trying to access protected member (by convention)

@@ -62,9 +62,9 @@ python -m uvicorn task_manager_pro.api.main:app --host 0.0.0.0 --port 8000 --wor
 curl -X POST "http://localhost:8000/api/auth/register" \
   -H "Content-Type: application/json" \
   -d '{
-    "username": "satvik",
+    "username": "demo_user",
     "password": "securepass123",
-    "email": "satvik@example.com"
+    "email": "demo@example.com"
   }'
 ```
 
@@ -73,8 +73,8 @@ Response (201):
 ```json
 {
   "id": "user-uuid",
-  "username": "satvik",
-  "email": "satvik@example.com",
+  "username": "demo_user",
+  "email": "demo@example.com",
   "email_reminders_enabled": true,
   "created_at": "2025-11-23T12:00:00",
   "updated_at": "2025-11-23T12:00:00"
@@ -87,7 +87,7 @@ Response (201):
 curl -X POST "http://localhost:8000/api/auth/login" \
   -H "Content-Type: application/json" \
   -d '{
-    "username": "satvik",
+    "username": "demo_user",
     "password": "securepass123"
   }'
 ```

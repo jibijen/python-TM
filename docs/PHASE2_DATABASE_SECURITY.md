@@ -105,7 +105,7 @@ Migration creates:
 The CLI now works with the database instead of JSON:
 
 ```bash
-task-manager login --username satvik
+task-manager login --username demo_user
 task-manager add-task --title "Learn SQLAlchemy" --desc "..." --due 2025-12-31
 task-manager list-tasks --filter pending --verbose
 ```
@@ -235,13 +235,13 @@ from task_manager_pro.storage.sql_storage import SQLStorage
 storage = SQLStorage()
 
 # Create user
-user = storage.create_user("satvik", "password123", email="satvik@example.com")
+user = storage.create_user("demo_user", "password123", email="demo@example.com")
 
 # Get user
-user = storage.get_user_by_username("satvik")
+user = storage.get_user_by_username("demo_user")
 
 # Verify password
-is_valid = storage.verify_user_password("satvik", "password123")
+is_valid = storage.verify_user_password("demo_user", "password123")
 
 # Update user
 storage.update_user(user.id, email="newemail@example.com")

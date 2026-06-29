@@ -238,8 +238,8 @@ Configure in GitHub Settings → Branches:
 Add to README.md:
 
 ```markdown
-![CI/CD](https://github.com/SatvikPraveen/Task-Manager-Pro/workflows/CI%2FCD%20Pipeline/badge.svg)
-[![codecov](https://codecov.io/gh/SatvikPraveen/Task-Manager-Pro/branch/main/graph/badge.svg)](https://codecov.io/gh/SatvikPraveen/Task-Manager-Pro)
+![CI/CD](https://github.com/your-username/Task-Manager-Pro/workflows/CI%2FCD%20Pipeline/badge.svg)
+[![codecov](https://codecov.io/gh/your-username/Task-Manager-Pro/branch/main/graph/badge.svg)](https://codecov.io/gh/your-username/Task-Manager-Pro)
 ```
 
 ## Performance Benchmarks
