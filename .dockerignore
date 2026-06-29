@@ -1,0 +1,26 @@
+# 🚫 Ignore Python cache directories and compiled bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🗃️ Ignore local SQLite or database files
+*.db
+
+# 🔐 Ignore environment variables and secret credentials
+.env
+
+# 🚫 Ignore virtual environments
+.venv
+
+# 📦 Ignore Python package metadata
+*.egg-info/
+
+# 🍎 Ignore macOS system files
+.DS_Store
+
+# 📄 Ignore all log files
+*.log
+
+# 📁 Ignore logs directory
+logs/

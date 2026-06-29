@@ -1,0 +1,72 @@
+# 🐍 Python bytecode/cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 🧪 Virtual environments (common folder names)
+venv/
+env/
+
+# 📝 Log files
+*.log
+
+# 🧪 pytest cache
+.pytest_cache/
+
+# 📐 mypy type checker cache
+.mypy_cache/
+
+# 💻 VSCode project settings
+.vscode/
+
+# 🍎 macOS metadata (created automatically by Finder)
+.DS_Store
+
+# 📓 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🐳 Docker artifacts (optional: e.g., saved images)
+*.tar
+
+# 🔐 Environment variable file (sensitive credentials)
+.env
+.env.local
+.env.*.local
+
+# 📦 Application state data (used by JSONStorage)
+tasks.json
+
+# 📁 Custom logging directory
+/logs
+
+# 🕒 Temporary script used for testing cron-based reminders
+run_reminders.sh
+
+# 🔒 Database files (local/testing - NEVER commit production databases)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# 🔑 Private keys and certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# 🍃 IDE-specific files
+.idea/
+*.swp
+*.swo
+*~
+
+# 📊 Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# 🏗️ Build artifacts
+build/
+dist/
