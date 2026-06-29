@@ -1,4 +1,4 @@
-# Task Manager Pro
+# Task Manager
 
 A simple Python project for managing tasks with a CLI and a REST API.
 
